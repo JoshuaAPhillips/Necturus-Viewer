@@ -53,10 +53,10 @@ export function DynamicXMLViewer({onSelection, setSelection, currentPage, setAnn
                     <span className="ms-auto p-2 d-inline-flex">
                         <div className="switcher" onChange={onToolSelect}>
                               <input type="radio" name="view-toggle" value="raw" id="raw" className="switcherxml__input switcherxml__input--raw" />
-                              <label htmlFor="raw" className="switcher__label">Raw</label>
+                              <label htmlFor="raw" className="switcher__label">View XML</label>
 
                               <input type="radio" name="view-toggle" value="render" id="render" className="switcherxml__input switcherxml__input--render" defaultChecked />
-                              <label htmlFor="render" className="switcher__label">Render</label>
+                              <label htmlFor="render" className="switcher__label">View Text</label>
 
                               <span className="switcher__toggle"></span>
                         </div>
